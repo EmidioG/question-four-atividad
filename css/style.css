@@ -1,0 +1,37 @@
+body {
+    font-family: Montserrat;
+
+    margin: 0 30px;
+}
+
+label {
+    display: block;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+input,
+textarea {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 4px;
+}
+
+label + *:focus,
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-color: blue;
+    transition: 0.3s;
+}
+
+textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    transition: 0.3s;
+}
